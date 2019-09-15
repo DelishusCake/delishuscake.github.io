@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Hunter Brady Resume</title>
+		<style type="text/css">
+			html, body
+			{
+				color: #333;
+				line-height: 1.2;
+				margin: 0 !important;
+				padding: 0 !important;
+				font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+			}
+			h1 { margin: 0.5rem 0; font-size: 2em; }
+			h2 { margin: 0.5rem 0; font-size: 1.5em; }
+
+			a         { text-decoration: none; }
+			a:hover   { text-decoration: underline; }
+			a:link    { color: #3333aa; }
+			a:visited { color: #3333aa; }
+
+			ul { list-style: none; margin: 0; }
+			li h1,h2,h3 { margin: 0.1rem 0; }
+
+			.container
+			{
+				float: none;
+				clear: left;
+				overflow: auto; 
+				margin: 0 auto;
+				padding: 0.5rem 0.5rem;
+				position: relative;
+				max-width: 960px;
+			}
+
+			.text-center { text-align: center; }
+			.text-right  { text-align: right; }
+
+			.left { float: left; }
+			.right { float: right; }
+
+			.block { display: inline-block; padding-right: 1.5rem; }
+
+			.text-white
+			{
+				color: #fff;
+			}
+			.text-white a:link { color: #fff; }
+			.text-white a:visited { color: #fff; }
+
+			.bg-red  		{ background-color: #8a0000; }
+			.bg-blue 		{ background-color: #0065d1; }
+			.bg-light-grey  { background-color: #eee; }
+
+			.hero
+			{
+				width: 100% !important;
+			}
+			.hero-body
+			{
+				margin: 0 auto;
+				width: 960px;
+			}
+			.title
+			{
+				color: #222;
+				line-height: 1;
+				padding-top: 1.5rem;
+			}
+			.text-white .title { color: #fff; }
+			.subtitle
+			{
+				color: #888;
+				line-height: 0.5;
+				padding-top: 0;
+			}
+			.text-white .subtitle { color: #bbb; }
+
+			.tag-item
+			{
+				display: inline-block;
+				border-radius: 8px;
+				line-height: 1;
+				padding: 0.8rem;
+				margin: 0.5rem 0;
+				text-align: center;
+				white-space: nowrap;
+				vertical-align: baseline;
+			}
+
+			@media only screen and (width: 1000px)
+			{
+				.title
+				{
+					text-align: center;
+				}
+			}
+			@media print
+			{
+				body { padding: 0 5rem !important; }
+				.text-white { color: #333; }
+				.text-white .title { color: #222; }
+			}
+		</style>
+	</head>
+	<body>
+		<section class="hero bg-blue text-white">
+			<div class="hero-body">
+				<div class="container">
+					<div class="left" style="padding-top: 1rem;">
+						<h1 class="title">Hunter Brady</h1>
+						<h2 class="subtitle">Software Engineer</h2>
+					</div>
+					<div class="text-right right">
+						<p><b>Address:</b> 3154 E Bloomfield Pkwy<br />Gilbert, AZ 85296</p>
+						<p><b>Github:</b> <a href="http://github.com/DelishusCake">http://github.com/DelishusCake</a></p>
+						<p><b>Website:</b> <a href="delishuscake.dev">delishuscake.dev</a></p>
+						<p><b>Email:</b> <a href="mailto:hunter@delishuscake.dev">hunter@delishuscake.dev</a></p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="container">
+				<h2>Skills</h2>
+				<ul>
+					<li class="tag-item bg-blue text-white">C/C++</li>
+					<li class="tag-item bg-blue text-white">HTML/CSS</li>
+					<li class="tag-item bg-blue text-white">Javascript</li>
+					<li class="tag-item bg-blue text-white">NodeJS</li>
+					<li class="tag-item bg-blue text-white">React Native</li>
+					<li class="tag-item bg-blue text-white">Python</li>
+					<li class="tag-item bg-blue text-white">Java</li>
+					<li class="tag-item bg-blue text-white">Ruby/Rails</li>
+					<li class="tag-item bg-blue text-white">Swift</li>
+					<li class="tag-item bg-blue text-white">PostgreSQL</li>
+					<li class="tag-item bg-blue text-white">Linux/Unix</li>
+				</ul>
+			</div>
+		</section>
+		<section>
+			<div class="container">
+				<h2>Projects</h2>
+				<ul>
+					<li>
+						<h3 class="title">WeFit</h3>
+						<h4 class="subtitle">A health-oriented Social Network for patients and doctors</h4>
+						<ul>
+							<li>Built the backend in Ruby on Rails</li>
+							<li>Deployed to Amazon Web Services</li>
+							<li>Created and managed the PostgreSQL database</li>
+							<li>Created and managed the REST API for interfacing with the mobile app</li>
+						</ul>
+					</li>
+					<li>
+						<h3 class="title">Nihil</h3>
+						<h4 class="subtitle">A custom systems-oriented programming language that compiles to pain C</h4>
+						<ul>
+							<li>Written in cross-platform ANSI-C</li>
+							<li>Adds in functional-oriented features, terser syntax, and is completely backwards-compatible with ANSI-C</li>
+							<li>Compiles to plain ANSI-C</li>
+						</ul>
+					</li>
+					<li>
+						<h3 class="title">Path Tracer</h3>
+						<h4 class="subtitle">A highly-optimized path tracing render</h4>
+						<ul>
+							<li>Written in C++</li>
+							<li>Generates high-quality photorealistic 3D renderings</li>
+							<li>Supports JSON scene descriptions</li>
+							<li>Bokeh depth of field, motion blur, texturing, physically-based materials</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<section>
+			<div class="container">
+				<h2>Education</h2>
+				<ul>
+					<li class="block">
+						<h3 class="title">B.S. Computer Science</h3>
+						<h4 class="subtitle">Arizona State University</h4>
+						<h4 class="subtitle">Expected to graduate December 2019</h4>
+					</li>
+					<li class="block">
+						<h3 class="title">High School</h3>
+						<h4 class="subtitle">Highland High School</h4>
+						<h4 class="subtitle">Graduated May 2014</h4>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<section>
+			<div class="container">
+				<h2>Experience</h2>
+				<ul>
+					<li class="block">
+						<h3 class="title">IT Assistant</h3>
+						<h4 class="subtitle">Gatestone & co.</h4>
+						<h4 class="subtitle">Sept. 2018 - Feb. 2019</h4>
+					</li>
+					<li class="block">
+						<h3 class="title">Electronics Team Member</h3>
+						<h4 class="subtitle">Target</h4>
+						<h4 class="subtitle">Oct. 2013 - Sept. 2018</h4>
+					</li>
+				</ul>
+			</div>
+		</section>
+	</body>
+</html>
