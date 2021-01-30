@@ -1,0 +1,3 @@
+[submodule "ReceiptTransformer"]
+	path = ReceiptTransformer
+	url = https://github.com/DelishusCake/ReceiptTransformer.git
